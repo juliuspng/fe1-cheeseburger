@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    margin: 0   ;
+    padding: 0;
+    
+
+}
+
+.cheeseburger img {
+    position: absolute;
+    top: 100;
+    left: 100;
+    width: 100%;
+}
+
+.cheeseburger {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    
+}
+
+
+
+.pao-topo {
+    z-index: 5;
+}
+
+.queijo {
+    z-index: 4;
+    top: 50px;
+}
+
+.hamburguer {
+    z-index: 3;
+    top: 40px;
+}
+
+.queijo-2 {
+    z-index: 2;
+    top: 100px;
+}
+
+.pao-fundo {
+    z-index: 1;
+    top: 90px;
+    
+}
+
